@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(45, 129, 45);
+    text-align: center;
+}
+.container
+{
+    height: 62vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.game{
+    height: 400px;
+    width: 400px;
+  
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.box{
+    height: 15vmin;
+    width: 15vmin;
+    align-items: center;
+    text-align: center;
+   border-radius: 5px;
+   font-size: 6vmin;
+   background-color: rgb(19, 131, 131);
+   color: white;
+   
+}
+.box:hover{
+    height: 16vmin;
+    width: 16vmin;
+}
+.reset-btn{
+    height: 5vmin;
+    width: 14vmin;
+    border-radius: 2px;
+}
+.new-btn{
+    height: 5vmin;
+    width: 14vmin;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+.hide{
+     display: none; 
+    
+}
